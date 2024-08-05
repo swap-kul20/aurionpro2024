@@ -1,0 +1,28 @@
+package com.techlabs.model;
+
+public class Operations {
+	
+	int addition(int number1,int number2)
+	{
+		return number1+number2;
+	}
+	int substraction(int number1,int number2)
+	{
+		return number1-number2;
+	}
+	int multiplication(int number1,int number2)
+	{
+		return number1*number2;
+	}
+	int division(int number1,int number2)
+	{
+		return number1/number2;
+	}
+	
+	boolean isEven(int number)
+	{
+		return number%2 == 0;
+	}
+	
+
+}

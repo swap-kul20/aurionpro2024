@@ -1,0 +1,43 @@
+package com.techlabs.model;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class OperationsTest {
+
+	@Test
+	void testAddition() {
+		
+		Operations operations=new Operations();
+		
+		assertEquals(10, operations.addition(7, 5),"This function must do addition");
+		
+	}
+	@Test
+	void testSubstraction() {
+		
+		Operations operations=new Operations();
+		
+		assertEquals(0, operations.substraction(2, 2),"This function must do substraction");
+		
+	}
+	@Test
+	void testMultiplication() {
+		
+		Operations operations=new Operations();
+		
+		assertEquals(4, operations.multiplication(2, 2),"This function must do multiplication");
+		
+	}
+	
+	@Test
+	void testDivision() {
+		
+		Operations operations=new Operations();
+		
+		assertEquals(2, operations.division(6, 3),"This function must do division");
+		
+	}
+
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="BoardTest" project="20-unitetesting-app" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="co.techlabs.tictaktoe.BoardTest" time="0.053" displayname="BoardTest" uniqueid="[engine:junit-jupiter]/[class:co.techlabs.tictaktoe.BoardTest]">
+    <testcase name="testIsBoardFull" classname="co.techlabs.tictaktoe.BoardTest" time="0.039" displayname="testIsBoardFull()" uniqueid="[engine:junit-jupiter]/[class:co.techlabs.tictaktoe.BoardTest]/[method:testIsBoardFull()]"/>
+    <testcase name="testIsBoardNotFull" classname="co.techlabs.tictaktoe.BoardTest" time="0.003" displayname="testIsBoardNotFull()" uniqueid="[engine:junit-jupiter]/[class:co.techlabs.tictaktoe.BoardTest]/[method:testIsBoardNotFull()]"/>
+    <testcase name="testSetCellMark" classname="co.techlabs.tictaktoe.BoardTest" time="0.011" displayname="testSetCellMark()" uniqueid="[engine:junit-jupiter]/[class:co.techlabs.tictaktoe.BoardTest]/[method:testSetCellMark()]"/>
+  </testsuite>
+</testrun>

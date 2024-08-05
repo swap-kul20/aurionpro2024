@@ -1,0 +1,26 @@
+package co.techlabs.tictaktoe;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class BoardTest {
+	
+	private Board board;
+	
+	public void init()
+	{
+		board=new Board();
+	}
+
+	@Test
+	void testIsBoardFull() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testSetCellMark() {
+		fail("Not yet implemented");
+	}
+
+}

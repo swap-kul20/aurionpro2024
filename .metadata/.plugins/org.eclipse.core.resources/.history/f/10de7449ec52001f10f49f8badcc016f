@@ -1,0 +1,8 @@
+package co.techlabs.tictaktoe;
+
+public interface ISudentService {
+	
+	int getMarks();
+	int getNumberOfSubjects();
+
+}
